@@ -2,7 +2,7 @@
 
 # danger-pr_reviewers
 
-The plugin deals with the PRs on the GitHub innregards to reviews. Based on the given parameters
+The plugin deals with the PRs on the GitHub in regards to reviews. Based on the given parameters
 it automatically assigns the developer to review the PRs. In [ios team](https://github.com/conichiGMBH/ios-team) we have [rules](https://github.com/conichiGMBH/ios-team/blob/master/docs/pr_protocol.md#creating-the-pr) to ask our designers to review the UI changed in PR, by checkin the attached image or gif. The `pr_reviewers` can also ask for review based on that rule.
 
 ## Installation
