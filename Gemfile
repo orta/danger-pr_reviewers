@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in danger-pr_reviewers.gemspec
 gemspec
+
+gem 'danger-changelog', '~> 0.1'
+gem 'danger', '~> 5.0'

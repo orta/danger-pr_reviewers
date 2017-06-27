@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/conichiGMBH/danger-pr_reviewers.svg?branch=master)](https://travis-ci.org/conichiGMBH/danger-pr_reviewers)
+
 # danger-pr_reviewers
 
 The plugin deals with the PRs on the GitHub innregards to reviews. Based on the given parameters
