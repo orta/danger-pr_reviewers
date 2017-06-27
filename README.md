@@ -1,6 +1,7 @@
 # danger-pr_reviewers
 
-A description of danger-pr_reviewers.
+The plugin deals with the PRs on the GitHub innregards to reviews. Based on the given parameters
+it automatically assigns the developer to review the PRs. In [ios team](https://github.com/conichiGMBH/ios-team) we have [rules](https://github.com/conichiGMBH/ios-team/blob/master/docs/pr_protocol.md#creating-the-pr) to ask our designers to review the UI changed in PR, by checkin the attached image or gif. The `pr_reviewers` can also ask for review based on that rule.
 
 ## Installation
 
@@ -10,8 +11,16 @@ $ gem install danger-pr_reviewers
 
 ## Usage
 
-Methods and attributes from this plugin are available in
-your `Dangerfile` under the `pr_reviewers` namespace.
+```ruby
+developers_usernames = ["Superman", "Batman", "Iron-Man"]
+number_of_developers_required_for_review = 1
+designers_usernames = ["Pablo-Picasso", "Salvador-Dali"]
+number_of_designers_required_for_review = 1
+pr_reviewers.run(developers_usernames,
+                 designers_usernames,
+                 number_of_developers_required_for_review,
+                 number_of_designers_required_for_review)
+```
 
 ## Development
 
